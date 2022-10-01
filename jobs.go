@@ -15,7 +15,7 @@ type Job struct {
 	JobType       string         `json:"jobType"`
 	CreatedAt     int64          `json:"createdAt"`
 	ExecutionTime int64          `json:"executionTime"`
-	Status        string         `json:"status"`
+	JobStatus     string         `json:"JobStatus"`
 	JobData       map[string]any `json:"jobData"`
 }
 
